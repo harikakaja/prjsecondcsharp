@@ -16,7 +16,7 @@ namespace MethodsEg
         }
         void studenrdetails(string name,params string[] hobbies)
         {
-            Console.WriteLine("name:{0}",name);
+            Console.WriteLine("name1:{0}",name);
             for (int i=0;i<hobbies.Length;i++)
             {
                 Console.WriteLine(hobbies[i]);
